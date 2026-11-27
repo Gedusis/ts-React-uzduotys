@@ -22,3 +22,20 @@ button {
   border-radius: 12px;
   cursor: pointer;
 }
+.reps-wheel {
+  height: 200px;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  padding: 80px 0;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.reps-option {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: center;
+  font-size: 24px;
+}
